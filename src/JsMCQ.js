@@ -12,7 +12,8 @@
 // d.f1, undefined
 // --->ANS->c(global,arguments)
 
-// 2) in the above function f1, I do the following
+// 2) in the above function f1, I do the 
+// following
 
 // let f11 = f1.bind({ a: 1 }, "abc");
 // f11("def");
@@ -24,7 +25,7 @@
 // b.Undefined, undefined
 // c.{a:1}, arguments = [“abc”, “def”]
 // d.{a: 1}, arguments = [“def”]
-// ANS->d({a: 1}, arguments = [“def”])
+// ANS->c({a: 1}, arguments = ["abc",“def”])
 
 // 3) Write a simple function that will split an array into chunks with a specified size.
 // Example - array = [1,2,3,4,5]
